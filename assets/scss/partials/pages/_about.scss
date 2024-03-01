@@ -1,0 +1,22 @@
+#about__content,
+#legal__content {
+  max-width: var(--max-width-col);
+}
+
+#about__content {
+  section {
+    margin-bottom: calc(var(--global-gap) * 2);
+  }
+}
+
+#about__biography,
+#project-description {
+  span {
+    opacity: 1;
+    transition: opacity 0.8s 0s;
+    &:hover {
+      opacity: 0;
+      transition: opacity 0s 0s;
+    }
+  }
+}

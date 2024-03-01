@@ -1,0 +1,25 @@
+Title: Mentions légales
+
+----
+
+Slug: mentions-legales
+
+----
+
+Notice: Cette Politique de Confidentialité a pour but de clarifier auprès du public, de manière claire et transparente, comment les informations obtenues sont utilisées. Seules les données des utilisateurs déjà regroupées, résultant d'enquêtes statistiques, peuvent être utilisées et diffusées afin d'exprimer globalement les caractéristiques qualitatives et quantitatives générales du public fréquentant le site web de Flore Faucheux. Aucune information personnelle n'est échangée. Nous utilisons des « cookies » pour un contrôle interne de l'audience, afin de faciliter l'accès pour ceux qui ont déjà navigué sur le site web de Flore Faucheux. Des questions, des éclaircissements supplémentaires ou des suggestions peuvent être envoyés à contact@florefaucheux.com.
+
+----
+
+Seotitle: Politique de confidentialité
+
+----
+
+Seotags: legal notice, cookies
+
+----
+
+Seometa: Politique de confidentialité et contacts légaux
+
+----
+
+Shareimage: 

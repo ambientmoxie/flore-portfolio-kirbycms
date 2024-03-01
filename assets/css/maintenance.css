@@ -1,0 +1,17 @@
+.message {
+  padding: 15px;
+  font-size: 31px;
+  font-family: "NHGTP", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .message {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .message {
+    font-size: 20px;
+  }
+}

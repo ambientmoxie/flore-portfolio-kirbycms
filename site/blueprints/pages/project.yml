@@ -1,0 +1,48 @@
+title: project
+image:
+  back: gray-900
+  icon: false
+  query: false
+
+tabs:
+  content:
+    columns:
+      - width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              floatingImage:
+                label: Floating image
+                type: files
+                multiple: false
+                required: true
+              gallery:
+                label: Gallery
+                type: files
+              artworkTitle:
+                label: Title
+                type: text
+              year:
+                label: Year
+                type: text
+                width: 1/2
+              technique:
+                label: Technique
+                type: text
+                width: 1/2
+              size:
+                label: size
+                type: text
+                width: 1/2
+              moreInfo:
+                label: More Information
+                type: text
+                width: 1/2
+      - width: 1/3
+        sections:
+          files:
+            label: All files
+            type: files
+
+  meta: tabs/seo/meta

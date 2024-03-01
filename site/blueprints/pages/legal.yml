@@ -1,0 +1,18 @@
+title: legal
+image:
+  back: gray-900
+  icon: false
+  query: false
+
+tabs:
+  content:
+    sections:
+      notice:
+        type: fields
+        fields:
+          notice:
+            label: Legal notice
+            type: textarea
+            size: medium
+          
+  meta: tabs/seo/meta

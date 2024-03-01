@@ -1,0 +1,86 @@
+#carousel-container {
+  max-width: var(--max-width-col);
+  // @media screen and (max-width: 767px) {
+  //   width: 100%;
+  // }
+
+  .carousel {
+    margin-bottom: var(--global-gap);
+
+    .carousel-cell {
+      width: inherit;
+      height: 60rem;
+
+      @media screen and (max-width: 767px) {
+        height: auto;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: left;
+
+        @media screen and (max-width: 767px) {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  #carousel-index {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+#project__gallery {
+  margin-bottom: var(--margin-gap);
+}
+
+.flickity-button:disabled {
+  display: none;
+}
+
+.flickity-prev-next-button.next {
+  right: 0;
+  cursor: none;
+}
+.flickity-prev-next-button.previous {
+  left: 0;
+  cursor: none;
+}
+
+.flickity-prev-next-button {
+  top: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 0;
+  transform: none;
+}
+
+.flickity-button {
+  position: absolute;
+  background: transparent;
+  border: none;
+  color: #333;
+  &:hover {
+    background: transparent;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+// Custom cursors
+
+#cursor-container {
+  position: fixed;
+  top: 10px;
+  font-size: var(--fs-2);
+  margin: -28px 0 0 -45px;
+  pointer-events: none;
+  z-index: 2000;
+  // color: white;
+  mix-blend-mode: difference;
+}

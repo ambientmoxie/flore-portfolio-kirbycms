@@ -1,0 +1,320 @@
+// Theme 0
+
+body.theme-0 {
+  background-color: var(--theme-0-bgc);
+  opacity: 1;
+  #cursor-container {
+    color: var(--theme-0-bgc);
+  }
+  h1,
+  h2,
+  p,
+  button,
+  span,
+  a {
+    color: var(--theme-0-txt);
+  }
+  a,
+  button {
+    transition: color var(--theme-hov-duration) ease-in-out;
+    &:hover {
+      color: var(--theme-0-txt);
+      opacity: 0.8;
+    }
+  }
+  ::-moz-selection {
+    color: var(--theme-0-bgc);
+    background: var(--theme-0-txt);
+  }
+
+  ::selection {
+    color: var(--theme-0-bgc);
+    background: var(--theme-0-txt);
+  }
+}
+
+// Theme 1
+
+body.theme-1 {
+  background-color: var(--theme-1-bgc);
+  opacity: 1;
+  #cursor-container {
+    color: var(--theme-1-txt);
+  }
+  h1,
+  h2,
+  p,
+  button,
+  span,
+  #cursor-container,
+  a {
+    color: var(--theme-1-txt);
+  }
+  a,
+  button {
+    transition: color var(--theme-hov-duration) ease-in-out;
+    &:hover {
+      color: var(--theme-1-txt);
+      opacity: 0.5;
+    }
+  }
+
+  ::-moz-selection {
+    color: var(--theme-1-bgc);
+    background: var(--theme-1-txt);
+  }
+
+  ::selection {
+    color: var(--theme-1-bgc);
+    background: var(--theme-1-txt);
+  }
+}
+
+// Theme 2
+
+body.theme-2 {
+  background-color: var(--theme-2-bgc);
+  opacity: 1;
+  #cursor-container {
+    color: var(--theme-2-txt);
+  }
+  h1,
+  h2,
+  p,
+  button,
+  span,
+  a {
+    color: var(--theme-2-txt);
+  }
+  a,
+  button {
+    transition: color var(--theme-hov-duration) ease-in-out;
+    &:hover {
+      color: var(--theme-2-txt);
+      opacity: 0.5;
+    }
+  }
+
+  ::-moz-selection {
+    color: var(--theme-2-bgc);
+    background: var(--theme-2-txt);
+  }
+
+  ::selection {
+    color: var(--theme-2-bgc);
+    background: var(--theme-2-txt);
+  }
+}
+
+// Theme 3
+
+body.theme-3 {
+  background-color: var(--theme-3-bgc);
+  opacity: 1;
+  #cursor-container {
+    color: var(--theme-3-txt);
+  }
+  h1,
+  h2,
+  p,
+  button,
+  span,
+  a {
+    color: var(--theme-3-txt);
+  }
+  a,
+  span,
+  button {
+    transition: color var(--theme-hov-duration) ease-in-out;
+    &:hover {
+      color: var(--theme-3-txt);
+      opacity: 0.5;
+    }
+  }
+
+  ::-moz-selection {
+    color: var(--theme-3-bgc);
+    background: var(--theme-3-txt);
+  }
+
+  ::selection {
+    color: var(--theme-3-bgc);
+    background: var(--theme-3-txt);
+  }
+}
+
+// Theme 4
+
+body.theme-4 {
+  background-color: var(--theme-4-bgc);
+  opacity: 1;
+  #cursor-container {
+    color: var(--theme-4-txt);
+  }
+  h1,
+  h2,
+  p,
+  button,
+  span,
+  a {
+    color: var(--theme-4-txt);
+  }
+  a,
+  button {
+    transition: color var(--theme-hov-duration) ease-in-out;
+    &:hover {
+      color: var(--theme-4-txt);
+      opacity: 0.5;
+    }
+  }
+
+  ::-moz-selection {
+    color: var(--theme-4-bgc);
+    background: var(--theme-4-txt);
+  }
+
+  ::selection {
+    color: var(--theme-4-bgc);
+    background: var(--theme-4-txt);
+  }
+}
+
+// Theme 5
+
+body.theme-5 {
+  background-color: var(--theme-5-bgc);
+  opacity: 1;
+  #cursor-container {
+    color: var(--theme-5-txt);
+  }
+  h1,
+  h2,
+  p,
+  button,
+  span,
+  a {
+    color: var(--theme-5-txt);
+  }
+  a,
+  button {
+    transition: color var(--theme-hov-duration) ease-in-out;
+    &:hover {
+      color: var(--theme-5-txt);
+      opacity: 0.5;
+    }
+  }
+  ::-moz-selection {
+    color: var(--theme-5-bgc);
+    background: var(--theme-5-txt);
+  }
+
+  ::selection {
+    color: var(--theme-5-bgc);
+    background: var(--theme-5-txt);
+  }
+}
+
+// Theme 6
+
+body.theme-6 {
+  background-color: var(--theme-6-bgc);
+  opacity: 1;
+  #cursor-container {
+    color: var(--theme-6-txt);
+  }
+  h1,
+  h2,
+  p,
+  button,
+  span,
+  a {
+    color: var(--theme-6-txt);
+  }
+  a,
+  button {
+    transition: color var(--theme-hov-duration) ease-in-out;
+    &:hover {
+      color: var(--theme-6-txt);
+      opacity: 0.5;
+    }
+  }
+  ::-moz-selection {
+    color: var(--theme-6-bgc);
+    background: var(--theme-6-txt);
+  }
+
+  ::selection {
+    color: var(--theme-6-bgc);
+    background: var(--theme-6-txt);
+  }
+}
+
+// Theme 7
+
+body.theme-7 {
+  background-color: var(--theme-7-bgc);
+  opacity: 1;
+  #cursor-container {
+    color: var(--theme-7-txt);
+  }
+  h1,
+  h2,
+  p,
+  button,
+  span,
+  a {
+    color: var(--theme-7-txt);
+  }
+  a,
+  button {
+    transition: color var(--theme-hov-duration) ease-in-out;
+    &:hover {
+      color: var(--theme-7-txt);
+      opacity: 0.5;
+    }
+  }
+  ::-moz-selection {
+    color: var(--theme-7-bgc);
+    background: var(--theme-7-txt);
+  }
+
+  ::selection {
+    color: var(--theme-7-bgc);
+    background: var(--theme-7-txt);
+  }
+}
+
+// Theme 8
+
+// body.theme-8 {
+//   background-color: var(--theme-8-bgc);
+//   opacity: 1;
+//   #cursor-container {
+//     color: var(--theme-8-txt);
+//   }
+//   h1,
+//   h2,
+//   p,
+//   button,
+//   span,
+//   a {
+//     color: var(--theme-8-txt);
+//   }
+//   a,
+//   button {
+//     transition: color var(--theme-hov-duration) ease-in-out;
+//     &:hover {
+//       color: var(--theme-8-txt);
+//       opacity: 0.5;
+//     }
+//   }
+//   ::-moz-selection {
+//     color: var(--theme-8-hov);
+//     background: var(--theme-8-txt);
+//   }
+
+//   ::selection {
+//     color: var(--theme-8-hov);
+//     background: var(--theme-8-txt);
+//   }
+// }

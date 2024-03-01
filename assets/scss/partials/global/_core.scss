@@ -1,0 +1,279 @@
+:root {
+  --fs-1: 4.9rem;
+
+  @media screen and (max-width: 1024px) {
+    --fs-1: 4rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    --fs-1: 2.8rem;
+    --line-height: 0.95;
+  }
+
+  // Colors
+
+  --color-black: #000;
+  --color-white: #fff;
+  --color-grey: #959595;
+
+  // Spacing and sizes
+
+  --global-gap: 15rem;
+  --margin-gap: 6rem;
+  --max-width-col: 90rem;
+
+  // Floating container values
+  --floating-w: 10rem;
+  --floating-h: 10rem;
+
+  //Themes
+
+  --background-color: #fff;
+  --text-color: #000;
+
+  // --darkmode-bgc: #f9f9f9;
+  // --darkmode-0-txt: #000;
+
+  // --lightmode-1-bgc: #000;
+  // --lightmode-1-txt: #f9f9f9;
+}
+
+.dark-mode {
+  --background-color: #000;
+  --text-color: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "KHT", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  // transition: all calc(var(--theme-hov-duration) * 1.5) ease-in-out;
+  overscroll-behavior: none;
+  line-height: 1;
+}
+
+picture {
+  img {
+    display: block;
+  }
+}
+
+h1,
+h2,
+p,
+a,
+ul li {
+  margin: 0;
+  font-size: var(--fs-1);
+  font-weight: normal;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  // opacity: 1;
+  &:hover {
+    color: var(--color-grey);
+  }
+}
+
+// Home page
+
+#home {
+  display: grid;
+  min-height: 100svh;
+  grid-template-rows: 1fr auto;
+}
+
+// Project page
+
+#project,
+#legal {
+  display: grid;
+  min-height: 100svh;
+  grid-template-rows: auto 1fr auto;
+}
+
+#project {
+  gap: 1.5rem;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  z-index: 1;
+  picture {
+    height: fit-content;
+    img {
+      width: auto;
+      height: 18rem;
+    }
+  }
+}
+
+#focus {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100svh;
+  background-color: var(--background-color);
+  z-index: 10;
+  display: none;
+  min-height: 100svh;
+  grid-template-rows: auto 1fr;
+  gap: 1.5rem;
+}
+
+#focus__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  button {
+    font-size: var(--fs-1);
+  }
+}
+
+#focus__artwork {
+  position: relative;
+  picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    img {
+      width: inherit;
+      height: inherit;
+      object-fit: contain;
+      object-position: top;
+    }
+  }
+}
+
+// Display list elements inline and remove default "dots"
+
+#header,
+#footer {
+  ul li {
+    list-style-type: none;
+    display: inline;
+    text-transform: capitalize;
+    margin-right: 1rem;
+  }
+}
+
+// Header and footer
+
+#header {
+  ul li {
+    // a {
+    //   cursor: none;
+    // }
+
+    a.active {
+      color: var(--color-grey);
+    }
+
+    a::after {
+      content: ",";
+    }
+
+    &:nth-last-of-type(2) a::after {
+      content: ";";
+    }
+
+    &:last-of-type a::after {
+      content: "";
+    }
+  }
+}
+
+#footer {
+  margin-top: 6rem;
+  ul li {
+    &:not(:last-of-type) {
+      &::after {
+        content: ",";
+      }
+    }
+  }
+}
+
+// Privacy policy
+
+#notice {
+  margin-top: 6rem;
+}
+
+// Floating thumb
+
+#floating-thumb {
+  position: fixed;
+  width: var(--floating-w);
+  height: var(--floating-h);
+  // top: 50%;
+  // left: 50%;
+  // margin: calc((var(--floating-h) / 2) * -1) 0 0
+  //   calc((var(--floating-w) / 2) * -1);
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+#home,
+#about,
+#legal,
+#error,
+#project,
+#focus {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}

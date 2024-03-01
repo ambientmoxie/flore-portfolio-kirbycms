@@ -1,0 +1,146 @@
+Title: Informations
+
+----
+
+Floatingimage: - file://fKsGRADWeEy91qOP
+
+----
+
+Gallery: - file://fKsGRADWeEy91qOP
+
+----
+
+Biography:
+
+Flore Faucheux is a multidisciplinary artist, trained outside of academic circuits. Since 2020, she has focused on the practice of ceramics, where she works with stoneware in unconventional ways. A prolific solitary production where she aims to reproduce, in diverted scales and in a whimsical way, the products of our era. Flore Faucheux organizes her life in a cyclical manner.
+
+She alternates between long travels and residencies in creative spaces, places that enrich the repertoire of things she sees and captures. Currently, she is working in Sous Terre[1] to bring out the markers of our time. By reproducing packaging of objects, she highlights modes of existence and consumption specific to our society. A way for the artist to find in her practice a personal space, which speaks to everyone. Paradox of value, does Flore Faucheux perpetuate with stoneware insignificant objects: preservation as a denunciation?
+
+By choosing visual elements that characterize the places she travels through: a Jackpot grid thrown on a sidewalk, a cigarette pack abandoned on an empty table, a dirty sock forgotten in a corner of an apartment, she glorifies these ghost objects and compiles a meticulous inventory of a world in full transformation. Her colorful and shiny pieces disturb the relationships we have with everyday objects and their uses, a delicate awakening to a poetry of possession.[1] Ceramic studio located in the 10th arrondissement of Paris.
+
+----
+
+Soloshows:
+
+- 
+  name: 'Pièce(s) à vivre - Bureaucratie at Galerie Atelier Bergère (Paris, France)'
+  startingdate: 2023-03-16
+  endingdate: 2023-04-13
+- 
+  name: 'Pièce(s) à vivre - Une chambre à part at Jeanne Barret (Marseille, France)'
+  startingdate: 2022-10-06
+  endingdate: 2022-10-09
+- 
+  name: >
+    Flore Faucheux at Bateaumagne (Paris,
+    France)
+  startingdate: 2021-12-06
+  endingdate: 2021-03-06
+- 
+  name: >
+    Dowser Projects at Small Block
+    (Melbourne, Australia)
+  startingdate: 2018-09-27
+  endingdate: 2018-10-27
+
+----
+
+Duoshows:
+
+- 
+  name: >
+    Flore Faucheux x Yoann Borsato at Matayo
+    Studio (Paris, France)
+  startingdate: 2021-11-04
+  endingdate: 2021-11-11
+
+----
+
+Groupshows:
+
+- 
+  name: 'Dreaming up vol 2 - Good Art Show (Mudgeeraba, Australia)'
+  startingdate: 2023-07-08
+  endingdate: 2023-07-12
+- 
+  name: >
+    Generation Y at Galerie Bertrand Grimont
+    (Paris, France)
+  startingdate: 2022-12-21
+  endingdate: 2023-01-10
+- 
+  name: 'Pièce(s) à vivre - Une chambre à part -Contre-Sens at Hangar de la Belle de Mai (Marseille, France)'
+  startingdate: 2022-10-21
+  endingdate: 2022-11-06
+- 
+  name: >
+    Gemütlichkeit at Haos Galerie (Nantes,
+    France)
+  startingdate: 2022-04-14
+  endingdate: 2022-05-15
+- 
+  name: >
+    Life Is Out There at Est Galerie (Paris,
+    France)
+  startingdate: 2021-10-14
+  endingdate: 2021-10-21
+
+----
+
+Assistant:
+
+- 
+  name: >
+    Christian Rosa Studio, Contemporary
+    Paintings (CDMX, Mexico)
+  startingdate: 2020-02-01
+  endingdate: 2020-03-01
+- 
+  name: >
+    Mark Kennedy Studio, Mosaics
+    (Manchester, United Kingdom)
+  startingdate: 2011-03-01
+  endingdate: 2012-09-01
+
+----
+
+Residencies:
+
+- 
+  name: >
+    Ceramica Suro (Guadarajala, Mexico)
+    (Coming up soon)
+  startingdate: 2023-11-01
+  endingdate: 2024-02-01
+- 
+  name: Jeanne Barret (Marseille, France)
+  startingdate: 2022-05-01
+  endingdate: 2022-09-01
+- 
+  name: Hickory Clay (San Francisco, USA)
+  startingdate: 2022-01-01
+  endingdate: 2022-03-01
+
+----
+
+Seotitle: Sculptor Artist – Biography and Journey
+
+----
+
+Seotags: informations, biography
+
+----
+
+Seometa: Discover Flore Faucheux, an innovative sculptor artist. Learn more about her journey, her inspirations, and her impact on contemporary art.
+
+----
+
+Shareimage: 
+
+----
+
+Notice: 
+
+----
+
+Uuid: 0E1uy7YsEJxTBRik

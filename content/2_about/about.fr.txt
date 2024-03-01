@@ -1,0 +1,134 @@
+Title: Informations
+
+----
+
+Biography:
+
+Flore Faucheux est une artiste pluridisciplinaire, formée en dehors des circuits académiques. Depuis 2020, elle se focalise sur la pratique de la céramique, dans laquelle elle travaille le grès de façon non-conventionnelle. Une production solitaire prolifique où elle s’applique à reproduire, à des échelles détournées et de manière cocasse, les produits de notre époque.Flore Faucheux organise sa vie de manière cyclique.
+
+Elle alterne des voyages sur des temps longs et des résidences dans des espaces de création, autant de lieux qui enrichissent le répertoire des choses qu’elle voit et qu’elle capture. Actuellement, elle travaille Sous Terre[1] pour faire émerger les marqueurs de notre temps. En reproduisant des packagings d’objets, elle souligne des modes d’existences et de consommation propre à notre société. Une manière pour l’artiste de trouver dans sa pratique un espace à soi, qui parle à tout le monde.Paradoxe de la valeur, Flore Faucheux pérennise avec le grès des objets insignifiants : la conservation comme une dénonciation ?
+
+En choisissant des éléments visuels qui caractérisent les lieux qu’elle traverse : une grille de Jackpot jeté sur un trottoir, un paquet de cigarette abandonné sur une table vide, une chaussette sale oubliée dans un coin d’appartement, elle glorifie ces objets fantômes et dresse un inventaire méticuleux d’un monde en pleine transformation. Ses pièces colorées et brillantes troublent les rapports que nous entretenons aux objets du quotidien et à leurs usages, un éveil délicat à une poésie de la possession.[1] Studio de céramique situé dans le 10e arrondissement de Paris.
+
+----
+
+Soloshows:
+
+- 
+  name: 'Pièce(s) à vivre - Bureaucratie at Galerie Atelier Bergère (Paris, France)'
+  startingdate: 2023-03-16
+  endingdate: 2023-04-13
+- 
+  name: 'Pièce(s) à vivre - Une chambre à part at Jeanne Barret (Marseille, France)'
+  startingdate: 2022-10-06
+  endingdate: 2022-10-09
+- 
+  name: >
+    Flore Faucheux at Bateaumagne (Paris,
+    France)
+  startingdate: 2021-12-06
+  endingdate: 2021-03-06
+- 
+  name: >
+    Dowser Projects at Small Block
+    (Melbourne, Australia)
+  startingdate: 2018-09-27
+  endingdate: 2018-10-27
+
+----
+
+Duoshows:
+
+- 
+  name: >
+    Flore Faucheux x Yoann Borsato at Matayo
+    Studio (Paris, France)
+  startingdate: 2021-11-04
+  endingdate: 2021-11-11
+
+----
+
+Groupshows:
+
+- 
+  name: 'Dreaming up vol 2 - Good Art Show (Mudgeeraba, Australia)'
+  startingdate: 2023-07-08
+  endingdate: 2023-07-12
+- 
+  name: >
+    Generation Y at Galerie Bertrand Grimont
+    (Paris, France)
+  startingdate: 2022-12-21
+  endingdate: 2023-01-10
+- 
+  name: 'Pièce(s) à vivre - Une chambre à part -Contre-Sens at Hangar de la Belle de Mai (Marseille, France)'
+  startingdate: 2022-10-21
+  endingdate: 2022-11-06
+- 
+  name: >
+    Gemütlichkeit at Haos Galerie (Nantes,
+    France)
+  startingdate: 2022-04-14
+  endingdate: 2022-05-15
+- 
+  name: >
+    Life Is Out There at Est Galerie (Paris,
+    France)
+  startingdate: 2021-10-14
+  endingdate: 2021-10-21
+
+----
+
+Assistant:
+
+- 
+  name: >
+    Christian Rosa Studio, Contemporary
+    Paintings (CDMX, Mexico)
+  startingdate: 2020-02-01
+  endingdate: 2020-03-01
+- 
+  name: >
+    Mark Kennedy Studio, Mosaics
+    (Manchester, United Kingdom)
+  startingdate: 2011-03-01
+  endingdate: 2012-09-01
+
+----
+
+Residencies:
+
+- 
+  name: >
+    Ceramica Suro (Guadarajala, Mexico)
+    (Coming up soon)
+  startingdate: 2023-11-01
+  endingdate: 2024-02-01
+- 
+  name: Jeanne Barret (Marseille, France)
+  startingdate: 2022-05-01
+  endingdate: 2022-09-01
+- 
+  name: Hickory Clay (San Francisco, USA)
+  startingdate: 2022-01-01
+  endingdate: 2022-03-01
+
+----
+
+Seotitle: Artiste Sculpteur – Biographie et Parcours
+
+----
+
+Seotags: informations, biographie
+
+----
+
+Seometa: Découvrez Flore Faucheux, artiste sculpteur innovante. Apprenez-en plus sur son parcours, ses inspirations et son impact sur l'art contemporain.
+
+----
+
+Shareimage: 
+
+----
+
+Notice: 

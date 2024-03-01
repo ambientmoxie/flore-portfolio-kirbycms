@@ -1,0 +1,59 @@
+Title: all living pieces
+
+----
+
+Floatingimage: - file://f7Dwdd26t0A1loqx
+
+----
+
+Gallery:
+
+- file://kMnJiq7SGJSnqAtu
+- file://f7Dwdd26t0A1loqx
+- file://4NjPIQPM2ymUsBCi
+- file://9HReQzEkM2Q0ZjaU
+- file://Ipejil61VgrDi7JJ
+
+----
+
+Artworktitle: Untitled (deletion)
+
+----
+
+Year: 2023
+
+----
+
+Technique: 2 pigment prints
+
+----
+
+Size: 31,2 × 42 cm (framed)
+
+----
+
+Moreinfo: Ed. 3 + 1AP
+
+----
+
+Seotitle: Flore Faucheux x Nina Ricci : Fusion Art & Mode
+
+----
+
+Seotags: sculpture, luxury, art
+
+----
+
+Seometa: Discover the unique collaboration between Flore Faucheux and Nina Ricci, where the art of sculpture meets the elegance of haute couture fashion.
+
+----
+
+Shareimage: - file://9HReQzEkM2Q0ZjaU
+
+----
+
+Otherinfo: Ed. 3 + 1AP
+
+----
+
+Uuid: Veg7MBLcArGDkPvj
