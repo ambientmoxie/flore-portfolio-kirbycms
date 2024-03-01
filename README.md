@@ -8,5 +8,3 @@
 
 ## Preview
 
-![website_flore_faucheux_export_1](https://github.com/ambientmoxie/sculptor-portfolio-kirbycms/assets/87242351/80dfd05f-605b-49bf-99da-c49e44270cef)
-![website_flore_faucheux_export_2](https://github.com/ambientmoxie/sculptor-portfolio-kirbycms/assets/87242351/015092e1-a472-417d-9eaf-24f3a9d454d8)
