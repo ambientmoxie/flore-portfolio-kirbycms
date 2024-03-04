@@ -6,17 +6,33 @@ Slug: collaboration-avec-nina-ricci
 
 ----
 
-Floatingimage: - file://f7Dwdd26t0A1loqx
+Floatingimage: - file://Ipejil61VgrDi7JJ
 
 ----
 
 Gallery:
 
+- file://9HReQzEkM2Q0ZjaU
 - file://kMnJiq7SGJSnqAtu
 - file://f7Dwdd26t0A1loqx
-- file://4NjPIQPM2ymUsBCi
-- file://9HReQzEkM2Q0ZjaU
 - file://Ipejil61VgrDi7JJ
+- file://4NjPIQPM2ymUsBCi
+
+----
+
+Seotitle: A project by Flore Faucheux
+
+----
+
+Seotags: sculpture, luxe, art
+
+----
+
+Seometa: Discover the work of Flore Faucheux
+
+----
+
+Shareimage: - file://9HReQzEkM2Q0ZjaU
 
 ----
 
@@ -37,22 +53,6 @@ Size: 31,2 × 42 cm (framed)
 ----
 
 Moreinfo: Ed. 3 + 1AP
-
-----
-
-Seotitle: Flore Faucheux x Nina Ricci : Fusion Art & Mode
-
-----
-
-Seotags: sculpture, luxe, art
-
-----
-
-Seometa: Découvrez l'unique collaboration entre Flore Faucheux et Nina Ricci, où l'art de la sculpture rencontre l'élégance de la mode haute couture.
-
-----
-
-Shareimage: - file://9HReQzEkM2Q0ZjaU
 
 ----
 

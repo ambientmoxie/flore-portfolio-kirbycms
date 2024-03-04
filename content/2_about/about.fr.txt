@@ -115,15 +115,15 @@ Residencies:
 
 ----
 
-Seotitle: Artiste Sculpteur – Biographie et Parcours
+Seotitle: Sculptor Artist – Biography and Journey
 
 ----
 
-Seotags: informations, biographie
+Seotags: informations, biography
 
 ----
 
-Seometa: Découvrez Flore Faucheux, artiste sculpteur innovante. Apprenez-en plus sur son parcours, ses inspirations et son impact sur l'art contemporain.
+Seometa: Information about Flore Faucheux
 
 ----
 

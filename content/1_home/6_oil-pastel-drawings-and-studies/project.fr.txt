@@ -6,17 +6,19 @@ Slug: dessins-et-etudes-aux-pastels-a-l-huile
 
 ----
 
-Floatingimage: - file://f7Dwdd26t0A1loqx
+Floatingimage: - file://ahAEGi17uzUBOoho
 
 ----
 
 Gallery:
 
-- file://kMnJiq7SGJSnqAtu
-- file://f7Dwdd26t0A1loqx
-- file://4NjPIQPM2ymUsBCi
-- file://9HReQzEkM2Q0ZjaU
-- file://Ipejil61VgrDi7JJ
+- file://mcykEDsU6WCsnawW
+- file://YjUQYU98HDPFK2ih
+- file://YgRrTzwocvZH4VoU
+- file://5PJAce9bCi8KmZDq
+- file://ahAEGi17uzUBOoho
+- file://a7Gd86Zjx0lMuDU8
+- file://XwNKUf5lskXkyCnZ
 
 ----
 
@@ -40,7 +42,7 @@ Moreinfo: Ed. 3 + 1AP
 
 ----
 
-Seotitle: Flore Faucheux x Nina Ricci : Fusion Art & Mode
+Seotitle: A project by Flore Faucheux
 
 ----
 
@@ -48,7 +50,7 @@ Seotags: sculpture, luxe, art
 
 ----
 
-Seometa: Découvrez l'unique collaboration entre Flore Faucheux et Nina Ricci, où l'art de la sculpture rencontre l'élégance de la mode haute couture.
+Seometa: Discover the work of Flore Faucheux
 
 ----
 

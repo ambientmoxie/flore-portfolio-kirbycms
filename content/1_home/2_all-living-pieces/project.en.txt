@@ -2,17 +2,43 @@ Title: all living pieces
 
 ----
 
-Floatingimage: - file://f7Dwdd26t0A1loqx
+Floatingimage: - file://R93Tm4eLdRNcRkxR
 
 ----
 
 Gallery:
 
-- file://kMnJiq7SGJSnqAtu
-- file://f7Dwdd26t0A1loqx
-- file://4NjPIQPM2ymUsBCi
-- file://9HReQzEkM2Q0ZjaU
-- file://Ipejil61VgrDi7JJ
+- file://Q6hdhqTw7xYK1ir0
+- file://HlHmYQ0CediZnpa8
+- file://VxZVRVf8roIdAe9o
+- file://3E21JCVR5IiP6ZCd
+- file://nUhzNo5FPXPi2Fj8
+- file://NwszyM5lSrYwRquX
+- file://pUZc4kPSKJZKIIlJ
+- file://dLbYwXnMm9uaHynr
+- file://NLIhJRA59IVWEQmx
+- file://aqXTgd65MUvEJu8S
+- file://lCHRAPNsFeXsPACK
+- file://D0OEDCBOQd93kZVm
+- file://94OTEPXVcrX8ChoJ
+- file://URaWQM2vEO7qrT7S
+- file://j9F8YLrJmZfpY4Cu
+
+----
+
+Seotitle: A project by Flore Faucheux
+
+----
+
+Seotags: sculpture, luxe, art
+
+----
+
+Seometa: Discover the work of Flore Faucheux
+
+----
+
+Shareimage: - file://9HReQzEkM2Q0ZjaU
 
 ----
 
@@ -33,22 +59,6 @@ Size: 31,2 × 42 cm (framed)
 ----
 
 Moreinfo: Ed. 3 + 1AP
-
-----
-
-Seotitle: Flore Faucheux x Nina Ricci : Fusion Art & Mode
-
-----
-
-Seotags: sculpture, luxury, art
-
-----
-
-Seometa: Discover the unique collaboration between Flore Faucheux and Nina Ricci, where the art of sculpture meets the elegance of haute couture fashion.
-
-----
-
-Shareimage: - file://9HReQzEkM2Q0ZjaU
 
 ----
 

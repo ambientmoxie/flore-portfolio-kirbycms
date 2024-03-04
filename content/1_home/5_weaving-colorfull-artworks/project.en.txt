@@ -2,17 +2,19 @@ Title: weaving colorfull Artworks
 
 ----
 
-Floatingimage: - file://f7Dwdd26t0A1loqx
+Floatingimage: - file://NCQfNlm7qHtKMHLj
 
 ----
 
 Gallery:
 
-- file://kMnJiq7SGJSnqAtu
-- file://f7Dwdd26t0A1loqx
-- file://4NjPIQPM2ymUsBCi
-- file://9HReQzEkM2Q0ZjaU
-- file://Ipejil61VgrDi7JJ
+- file://L3WdpPrflTUbfgUQ
+- file://yFcoH9lC8jzUnu1S
+- file://NCQfNlm7qHtKMHLj
+- file://4h4DWxBIezk6oJ52
+- file://ry4sRrAzJsXgHDEr
+- file://6ujINdcZgqnaaigM
+- file://R6qjmhYCL5bRoShy
 
 ----
 
@@ -36,15 +38,15 @@ Moreinfo: Ed. 3 + 1AP
 
 ----
 
-Seotitle: Flore Faucheux x Nina Ricci : Fusion Art & Mode
+Seotitle: A project by Flore Faucheux
 
 ----
 
-Seotags: sculpture, luxury, art
+Seotags: sculpture, luxe, art
 
 ----
 
-Seometa: Discover the unique collaboration between Flore Faucheux and Nina Ricci, where the art of sculpture meets the elegance of haute couture fashion.
+Seometa: Discover the work of Flore Faucheux
 
 ----
 

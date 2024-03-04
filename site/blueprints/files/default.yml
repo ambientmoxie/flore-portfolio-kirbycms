@@ -4,6 +4,25 @@ sections:
   data:
     type: fields
     fields:
+      artworkTitle:
+        label: Title
+        type: text
+      artworkYear:
+        label: Year
+        type: text
+        width: 1/2
+      artworkTechnique:
+        label: Technique
+        type: text
+        width: 1/2
+      artworkSize:
+        label: size
+        type: text
+        width: 1/2
+      artworkMore:
+        label: More Information
+        type: text
+        width: 1/2
       alt:
         label: Short description for image "alt" tag
         type: text

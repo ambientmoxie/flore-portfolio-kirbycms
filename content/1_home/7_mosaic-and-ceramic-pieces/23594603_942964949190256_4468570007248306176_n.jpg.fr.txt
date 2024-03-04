@@ -1,0 +1,25 @@
+Artworktitle: Mocaic Pieces #1
+
+----
+
+Artworkyear: 2020
+
+----
+
+Artworktechnique: Chunks Of Ceramic
+
+----
+
+Artworksize: 21x29,7 cm
+
+----
+
+Artworkmore: Piece Of Colors
+
+----
+
+Alt: Artwork by flore faucheux
+
+----
+
+Uuid: XVojatsNEsYAx41S

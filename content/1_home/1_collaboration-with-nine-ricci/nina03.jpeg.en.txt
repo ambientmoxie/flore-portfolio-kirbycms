@@ -1,1 +1,25 @@
+Artworktitle: Untitled Object (nr) #1
+
+----
+
+Artworkyear: 2023
+
+----
+
+Artworktechnique: Ceramic
+
+----
+
+Artworksize: 20x35 cm
+
+----
+
+Artworkmore: # / nbr (serie)
+
+----
+
+Alt: artwork by flore faucheux
+
+----
+
 Uuid: f7Dwdd26t0A1loqx

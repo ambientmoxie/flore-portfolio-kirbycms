@@ -1,0 +1,57 @@
+Title: mosaic and ceramic pieces
+
+----
+
+Floatingimage: - file://xYDF4OGUlc9w2hAN
+
+----
+
+Gallery:
+
+- file://XVojatsNEsYAx41S
+- file://xYDF4OGUlc9w2hAN
+- file://vc9FQ6QFX3eJZyh5
+
+----
+
+Seotitle: A project by Flore Faucheux
+
+----
+
+Seotags: sculpture, luxe, art
+
+----
+
+Seometa: Discover the work of Flore Faucheux
+
+----
+
+Shareimage: - file://9HReQzEkM2Q0ZjaU
+
+----
+
+Artworktitle: Untitled (deletion)
+
+----
+
+Year: 2023
+
+----
+
+Technique: 2 pigment prints
+
+----
+
+Size: 31,2 × 42 cm (framed)
+
+----
+
+Moreinfo: Ed. 3 + 1AP
+
+----
+
+Otherinfo: Ed. 3 + 1AP
+
+----
+
+Uuid: dIPwsU05zf1MWESo

@@ -1,51 +1,45 @@
-//& Stylesheets
-//& ------------------------------
+// Sass import
+//--------------------------
 import "../scss/main.scss";
 
-//& Librairies
-//& ------------------------------
-
-import Loadeer from "loadeer";
-import faderText from "./modules/faderText";
-import Lenis from "@studio-freight/lenis";
+// Librairies
+//--------------------------
 import { gsap } from "gsap";
+import faderText from "./modules/faderText";
 import { isMobile } from "mobile-device-detect";
+import LazyLoad from "vanilla-lazyload";
 
-//? Lenis Scroll
-//? -------------------------------
+// Hover fading animation
+//--------------------------
+const aboutTextContainer = document.querySelector("#about");
+if (aboutTextContainer && !isMobile) {
+  faderText("#bio");
+  faderText("#solo-shows");
+  faderText("#duo-shows");
+  faderText("#group-shows");
+  faderText("#assistant");
+  faderText("#residencies");
+}
 
-const lenis = new Lenis({
-  lerp: 0.2,
+// Lazy loading
+//--------------------------
+let lazyLoadInstance;
+
+document.addEventListener("DOMContentLoaded", function () {
+  lazyLoadInstance = new LazyLoad({
+    elements_selector: "[data-lazyload]",
+  });
 });
 
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
+// Update LazyLoad
+function updateLazyLoad() {
+  if (lazyLoadInstance) {
+    lazyLoadInstance.update();
+  }
 }
-
-requestAnimationFrame(raf);
-
-//? Hover Fading Text Animation
-//? -------------------------------
-
-const aboutTextContainer = document.querySelector("#about__biography");
-const projectTextContainer = document.querySelector("#project-description");
-
-if (aboutTextContainer) {
-  faderText("#about__biography");
-}
-if (projectTextContainer) {
-  faderText("#project-description");
-}
-
-//? Lazy Loading
-//? -------------------------------
-
-const loadeer = new Loadeer();
-loadeer.observe();
 
 // Floating thumbnail
-
+//--------------------------
 if (document.querySelector("#header") && !isMobile) {
   const floatingThumb = document.getElementById("floating-thumb");
   console.log(floatingThumb);
@@ -92,12 +86,31 @@ if (document.querySelector("#header") && !isMobile) {
   }
 }
 
-// Modal logic
-
+// Modal logic (ahem...)
+//--------------------------
 if (document.getElementById("project")) {
   const mainContainer = document.getElementById("focus");
   const imageContainer = mainContainer.lastElementChild;
+  const focusInfos = document.getElementById("focus__infos");
   const closeBtn = document.getElementById("focus_close-btn");
+
+  function createTitleElement(picture) {
+    const focusTitle = document.createElement("h1");
+    let artworkTitle = picture.dataset.title;
+    let artworkYear = picture.dataset.year;
+    let artworkTechnique = picture.dataset.technique;
+    let artworkSize = picture.dataset.size;
+    let artworkMore = picture.dataset.more;
+
+    focusTitle.innerHTML = `
+    ${artworkTitle ? `<span>${artworkTitle}</span>` : ""}
+    ${artworkYear ? `<span>${artworkYear}</span>` : ""}
+    ${artworkTechnique ? `<span>${artworkTechnique}</span>` : ""}
+    ${artworkSize ? `<span>${artworkSize}</span>` : ""}
+    ${artworkMore ? `<span>${artworkMore}</span>` : ""}`;
+
+    return focusTitle;
+  }
 
   function createPictureElement(picture) {
     var targetAvif = picture.children[0];
@@ -105,24 +118,25 @@ if (document.getElementById("project")) {
     var targetJpg = picture.children[2];
     var picture = document.createElement("picture");
 
-    // Add avif
+    // Create avif
     var sourceAvif = document.createElement("source");
-    sourceAvif.setAttribute("srcset", targetAvif.srcset);
+    sourceAvif.setAttribute("data-srcset", targetAvif.srcset);
     sourceAvif.setAttribute("sizes", "100vw");
     sourceAvif.setAttribute("type", "image/avif");
     picture.appendChild(sourceAvif);
 
-    // Add webp
+    // Create webp
     var sourceWebp = document.createElement("source");
-    sourceWebp.setAttribute("srcset", targetWebp.srcset);
+    sourceWebp.setAttribute("data-srcset", targetWebp.srcset);
     sourceWebp.setAttribute("sizes", "100vw");
     sourceWebp.setAttribute("type", "image/webp");
     picture.appendChild(sourceWebp);
 
-    // Add img
+    // Create img
     var img = document.createElement("img");
+    img.setAttribute("data-lazyload", "");
+    img.setAttribute("data-srcset", targetJpg.srcset);
     img.src = targetJpg.src;
-    img.srcset = targetJpg.srcset;
     img.sizes = "100vw";
     picture.appendChild(img);
 
@@ -132,18 +146,25 @@ if (document.getElementById("project")) {
   document.querySelectorAll("#gallery picture").forEach((picture) => {
     picture.addEventListener("click", () => {
       imageContainer.innerHTML = "";
+      focusInfos.innerHTML = "";
+      focusInfos.appendChild(createTitleElement(picture));
       imageContainer.appendChild(createPictureElement(picture));
       mainContainer.style.display = "grid";
+      document.body.style.position = "fixed";
+
+      // Update lazy loading for new images
+      updateLazyLoad();
     });
   });
 
   closeBtn.addEventListener("click", () => {
     mainContainer.style.display = "none";
+    document.body.style.position = "initial";
   });
 }
 
-// DARK MODE
-
+// Dark mode
+//--------------------------
 const themeBtn = document.getElementById("switch-theme");
 const userPrefersDark = localStorage.getItem("darkMode") === "true";
 

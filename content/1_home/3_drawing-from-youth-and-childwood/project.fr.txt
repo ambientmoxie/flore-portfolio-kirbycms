@@ -6,17 +6,18 @@ Slug: dessin-de-jeunesse-et-d-enfance
 
 ----
 
-Floatingimage: - file://f7Dwdd26t0A1loqx
+Floatingimage: - file://LeBN987IYpPpdCYd
 
 ----
 
 Gallery:
 
-- file://kMnJiq7SGJSnqAtu
-- file://f7Dwdd26t0A1loqx
-- file://4NjPIQPM2ymUsBCi
-- file://9HReQzEkM2Q0ZjaU
-- file://Ipejil61VgrDi7JJ
+- file://mzAg9tK1QVQeSnek
+- file://pAByddjCxTv1he4q
+- file://hJKKa6Wf3cDIMGaD
+- file://LeBN987IYpPpdCYd
+- file://mZ0rerZsKvgJ5DDD
+- file://9SpDYd5l1a8W3hhq
 
 ----
 
@@ -40,7 +41,7 @@ Moreinfo: Ed. 3 + 1AP
 
 ----
 
-Seotitle: Flore Faucheux x Nina Ricci : Fusion Art & Mode
+Seotitle: A project by Flore Faucheux
 
 ----
 
@@ -48,7 +49,7 @@ Seotags: sculpture, luxe, art
 
 ----
 
-Seometa: Découvrez l'unique collaboration entre Flore Faucheux et Nina Ricci, où l'art de la sculpture rencontre l'élégance de la mode haute couture.
+Seometa: Discover the work of Flore Faucheux
 
 ----
 

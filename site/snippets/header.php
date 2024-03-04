@@ -21,32 +21,57 @@
       <ul>
         <?php
 
-        // Get the parent page object
-        $siblings = $page->siblings(); // Gets all siblings of the current page
-        $index = $siblings->indexOf($page);
-        $itemPosition = 0;
+        // Store home and about page.
+        $home         = $site->find("home");
+        $about        = $site->find("about");
+        // Boolean variable to check if user is on project template page.
+        $isProject    = $page->intendedTemplate() == "project";
+        $isAbout      = $page->intendedTemplate() == "about";
 
-        $home = $site->find("home");
-        $about = $site->find("about");
+        $siblings     = $page->siblings(); // Check if the current page as siblings.
+        $indexGlobal  = $siblings->indexOf($page); // Returns the index of the page.
+        $indexProject = 0; // Create and index variable to compare with the one of the current page.
+
+        // Object for setting attributes to project links. I'm using an object because I thought it would be clearer, but now I'm not so sure.
+        class LinkAttributes
+        {
+          public $activeClass;
+          public $url;
+          public $floatingUrl;
+          public $title;
+        }
+
+        function createFinalLink($indexGlobal, $indexProject, $project, $floatingImageResized, $isProject)
+        {
+          $linkObj = new LinkAttributes();
+          $linkObj->activeClass = $indexGlobal == $indexProject && $isProject ? "class=\"active\"" : "";
+          $linkObj->url = $project->url();
+          $linkObj->floatingUrl = $floatingImageResized->url();
+          $linkObj->title = $project->title();
+
+          return $linkObj;
+        }
+
+        // Loop through all the children of the home page, if it has any.
         if ($home->hasChildren()) :
           for ($i = 0; $i < 1; $i++) :
             $projects = $home->children();
             foreach ($projects as $project) :
-              $floatingImage = $project->floatingImage()->toFile();
-        ?>
+              $floatingImage        = $project->floatingImage()->toFile(); // Gets the url of the preview image for the hovering effect.
+              $floatingImageResized = $floatingImage->resize(500, null); // Resized image for optimization.
 
-              <li><a <?= e($itemPosition == $index, "class=\"active\"", "") ?> href="<?= $project->url() ?>" data-floating-url="<?= $floatingImage->resize(500, null)->url() ?>"><?= $project->title() ?></a></li>
+              $linkAttributesObj = createFinalLink($indexGlobal, $indexProject, $project, $floatingImageResized, $isProject);
+        ?>
+              <li><a <?= $linkAttributesObj->activeClass ?> href="<?= $linkAttributesObj->url ?>" data-floating-url="<?= $linkAttributesObj->floatingUrl ?>"><?= $linkAttributesObj->title ?></a></li>
 
             <?php
-
-              $itemPosition++;
-
+            $indexProject++;
             endforeach ?>
           <?php endfor ?>
         <?php else : ?>
           <li> there is not project to display for the moment</li>
         <?php endif ?>
-        <li>Art by <a href="<?= $about->url() ?>" data-floating-url="<?= $about->floatingImage()->toFile()->resize(500, null)->url() ?>">flore faucheux</a></li>
+        <li>Art by <a <?= e($about == $isAbout, "class=\"active\"", "") ?> href="<?= $about->url() ?>" data-floating-url="<?= $about->floatingImage()->toFile()->resize(500, null)->url() ?>">flore faucheux</a></li>
       </ul>
     </header>
 

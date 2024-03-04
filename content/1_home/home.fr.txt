@@ -2,7 +2,7 @@ Title: Projects
 
 ----
 
-Seotitle: Flore Faucheux — Artiste Céramiste
+Seotitle: Flore Faucheux — Artiste
 
 ----
 
@@ -10,7 +10,7 @@ Seotags: art, sculpture, brutaliste, vie quotidienne, art contemporain, voyage
 
 ----
 
-Seometa: Découvrez les impressionnants projets de sculpture de Flore Faucheux. Plongez et témoignez de l'art qui définit la contribution de Flore à la sculpture contemporaine.
+Seometa: Découvrez le travail de Flore Faucheux - Artist
 
 ----
 

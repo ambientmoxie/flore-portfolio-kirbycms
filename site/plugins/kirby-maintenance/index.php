@@ -80,6 +80,8 @@ class Maintenance {
     public function render( $message ){
         echo '<html><head>';
 
+            echo '<meta charset="UTF-8">';
+            echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
             echo '<title>'. $this->kirby->site()->title() .': 503 service currently unavailable</title>';
             
             if( $css = $this->kirby->option('moritzebeling.kirby-maintenance.css') ){
