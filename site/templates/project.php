@@ -18,7 +18,14 @@
                         data-more="<?= $image->ArtworkMore() ?>">
                         <source data-srcset="<?= $image->srcset('avif') ?>" sizes="<?= $sizes ?>" type="image/avif">
                         <source data-srcset="<?= $image->srcset('webp') ?>" sizes="<?= $sizes ?>" type="image/webp">
-                        <img alt="<?= $image->alt() ?>" src="<?= $image->blurhashUri() ?>" data-srcset="<?= $image->srcset() ?>" sizes="<?= $sizes ?>" width="<?= $image->resize(1800)->width() ?>" height="<?= $image->resize(1800)->height() ?>" data-lazyload>
+                        <img
+                            style="aspect-ratio: <?= $image->ratio() ?>; background-color: <?= $image->blurhashColor() ?>"
+                            alt="<?= $image->alt() ?>" src="<?= $image->url() ?>"
+                            data-srcset="<?= $image->srcset() ?>"
+                            sizes="<?= $sizes ?>"
+                            width="<?= $image->resize(1800)->width() ?>"
+                            height="<?= $image->resize(1800)->height() ?>"
+                            data-lazyload>
                     </picture>
                 </button>
 
@@ -36,7 +43,6 @@
 
     <div id="focus__artwork">
     </div>
-
 </div>
 
 <?php snippet('footer') ?>
