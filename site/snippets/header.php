@@ -58,7 +58,7 @@
             $projects = $home->children();
             foreach ($projects as $project) :
               $floatingImage        = $project->floatingImage()->toFile(); // Gets the url of the preview image for the hovering effect.
-              $floatingImageResized = $floatingImage->resize(500, null); // Resized image for optimization.
+              $floatingImageResized = $floatingImage->resize(200, null); // Resized image for optimization.
 
               $linkAttributesObj = createFinalLink($indexGlobal, $indexProject, $project, $floatingImageResized, $isProject);
         ?>
