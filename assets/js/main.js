@@ -112,17 +112,17 @@ if (document.getElementById("project")) {
   }
 
   function createPictureElement(picture) {
-    var targetAvif = picture.children[0];
-    var targetWebp = picture.children[1];
-    var targetJpg = picture.children[2];
+    // var targetAvif = picture.children[0];
+    var targetWebp = picture.children[0];
+    var targetJpg = picture.children[1];
     var picture = document.createElement("picture");
 
     // Create avif
-    var sourceAvif = document.createElement("source");
-    sourceAvif.setAttribute("data-srcset", targetAvif.srcset);
-    sourceAvif.setAttribute("sizes", "100vw");
-    sourceAvif.setAttribute("type", "image/avif");
-    picture.appendChild(sourceAvif);
+    // var sourceAvif = document.createElement("source");
+    // sourceAvif.setAttribute("data-srcset", targetAvif.srcset);
+    // sourceAvif.setAttribute("sizes", "100vw");
+    // sourceAvif.setAttribute("type", "image/avif");
+    // picture.appendChild(sourceAvif);
 
     // Create webp
     var sourceWebp = document.createElement("source");

@@ -16,7 +16,7 @@
                         data-technique="<?= $image->ArtworkTechnique() ?>"
                         data-size="<?= $image->ArtworkSize() ?>"
                         data-more="<?= $image->ArtworkMore() ?>">
-                        <source data-srcset="<?= $image->srcset('avif') ?>" sizes="<?= $sizes ?>" type="image/avif">
+                        <!-- <source data-srcset="<?= $image->srcset('avif') ?>" sizes="<?= $sizes ?>" type="image/avif"> -->
                         <source data-srcset="<?= $image->srcset('webp') ?>" sizes="<?= $sizes ?>" type="image/webp">
                         <img
                             style="aspect-ratio: <?= $image->ratio() ?>;"

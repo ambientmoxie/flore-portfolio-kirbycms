@@ -24,7 +24,7 @@ Kirby::plugin('hashsandsalt/kirby4-seo', [
               'metatitle'         => $page->title(),
               'metadesc'          => $page->seometa(),
               'metakeywords'      => $page->seotags(),
-              'metarobots'        => 'index, follow, noodp',
+              'metarobots'        => 'noindex, nofollow',
               'metaurl'           => $page->url(),
               'metaimage'         => $page->shareimage()->toFile() ? $page->shareimage()->toFile()->crop(1280, 720)->url() : '',
 

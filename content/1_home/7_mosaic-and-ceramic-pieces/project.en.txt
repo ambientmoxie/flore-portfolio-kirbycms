@@ -2,15 +2,15 @@ Title: mosaic and ceramic pieces
 
 ----
 
-Floatingimage: - file://xYDF4OGUlc9w2hAN
+Floatingimage: - file://zYEupkve45e6nKc5
 
 ----
 
 Gallery:
 
 - file://XVojatsNEsYAx41S
-- file://xYDF4OGUlc9w2hAN
-- file://vc9FQ6QFX3eJZyh5
+- file://zYEupkve45e6nKc5
+- file://jK6w9TQq2a7VhTs5
 
 ----
 

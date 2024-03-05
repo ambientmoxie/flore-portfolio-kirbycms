@@ -6,15 +6,31 @@ Slug: mosaic-et-pieces-en-ceramique
 
 ----
 
-Floatingimage: - file://xYDF4OGUlc9w2hAN
+Floatingimage: - file://zYEupkve45e6nKc5
 
 ----
 
 Gallery:
 
 - file://XVojatsNEsYAx41S
-- file://xYDF4OGUlc9w2hAN
-- file://vc9FQ6QFX3eJZyh5
+- file://zYEupkve45e6nKc5
+- file://jK6w9TQq2a7VhTs5
+
+----
+
+Seotitle: A project by Flore Faucheux
+
+----
+
+Seotags: sculpture, luxe, art
+
+----
+
+Seometa: Discover the work of Flore Faucheux
+
+----
+
+Shareimage: - file://9HReQzEkM2Q0ZjaU
 
 ----
 
@@ -35,22 +51,6 @@ Size: 31,2 × 42 cm (framed)
 ----
 
 Moreinfo: Ed. 3 + 1AP
-
-----
-
-Seotitle: A project by Flore Faucheux
-
-----
-
-Seotags: sculpture, luxe, art
-
-----
-
-Seometa: Discover the work of Flore Faucheux
-
-----
-
-Shareimage: - file://9HReQzEkM2Q0ZjaU
 
 ----
 
