@@ -42,7 +42,6 @@ function updateLazyLoad() {
 //--------------------------
 if (document.querySelector("#header") && !isMobile) {
   const floatingThumb = document.getElementById("floating-thumb");
-  console.log(floatingThumb);
 
   function moveThumb(e) {
     gsap.to(floatingThumb, {
@@ -132,10 +131,13 @@ if (document.getElementById("project")) {
     sourceWebp.setAttribute("type", "image/webp");
     picture.appendChild(sourceWebp);
 
+    const styleAttribute = `aspect-ratio:${targetJpg.style.aspectRatio};`;
+
     // Create img
     var img = document.createElement("img");
     img.setAttribute("data-lazyload", "");
     img.setAttribute("data-srcset", targetJpg.srcset);
+    img.setAttribute("style", styleAttribute);
     img.src = targetJpg.src;
     img.sizes = "100vw";
     picture.appendChild(img);
@@ -145,10 +147,16 @@ if (document.getElementById("project")) {
 
   document.querySelectorAll("#gallery picture").forEach((picture) => {
     picture.addEventListener("click", () => {
+
+      //Clear content
       imageContainer.innerHTML = "";
       focusInfos.innerHTML = "";
+
+      //Append title and image
       focusInfos.appendChild(createTitleElement(picture));
       imageContainer.appendChild(createPictureElement(picture));
+
+      //Prevent user from scrolling when modal is displayed
       mainContainer.style.display = "grid";
       document.body.style.position = "fixed";
 
@@ -187,3 +195,9 @@ function toggleDarkMode() {
 
 themeBtn.addEventListener("click", toggleDarkMode);
 updateButtonText();
+
+const myTestImg =
+  document.getElementById("gallery").firstElementChild.firstElementChild
+    .lastElementChild;
+
+const styles = myTestImg.style.backgroundColor;

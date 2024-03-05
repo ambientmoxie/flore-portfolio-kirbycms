@@ -19,12 +19,13 @@
                         <source data-srcset="<?= $image->srcset('avif') ?>" sizes="<?= $sizes ?>" type="image/avif">
                         <source data-srcset="<?= $image->srcset('webp') ?>" sizes="<?= $sizes ?>" type="image/webp">
                         <img
-                            style="aspect-ratio: <?= $image->ratio() ?>; background-color: <?= $image->blurhashColor() ?>"
-                            alt="<?= $image->alt() ?>" src="<?= $image->url() ?>"
+                            style="aspect-ratio: <?= $image->ratio() ?>;"
+                            src="<?= $image->blurhashUri() ?>"
                             data-srcset="<?= $image->srcset() ?>"
                             sizes="<?= $sizes ?>"
                             width="<?= $image->resize(1800)->width() ?>"
                             height="<?= $image->resize(1800)->height() ?>"
+                            alt="<?= $image->alt() ?>"
                             data-lazyload>
                     </picture>
                 </button>
@@ -35,12 +36,12 @@
     <?php endif ?>
 </main>
 <div id="focus">
+    
     <div id="focus__header">
         <div id="focus__infos">
         </div>
         <button id="focus_close-btn">close</button>
     </div>
-
     <div id="focus__artwork">
     </div>
 </div>
